@@ -20,7 +20,7 @@ The default settings are likely fine for getting started, but if you begin to ru
 
 Hello World:
 ```
-docker run docker/whalesay cowsay "Hey Team Nord. What's up?! 👋"
+docker run docker/whalesay cowsay "Hey Team Nord. What's up...?! 👋"
 ```
 
 Run Postgres:
