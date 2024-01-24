@@ -36,7 +36,8 @@ function CurrentTime(props) {
 export function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <h1>Hi Team NordCloud! What's up??! 👋</h1>
+      {/*<h1>Cloud Engineering Made Easy. NordCloud! 👋</h1>*/}
+      <h1>Cloud Engineering Made Easy. NordCloud!</h1>
       <CurrentTime api="/api/golang/"/>
       <CurrentTime api="/api/node/"/>
       <ReactQueryDevtools initialIsOpen={false} />
