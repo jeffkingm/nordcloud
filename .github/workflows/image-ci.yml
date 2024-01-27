@@ -16,8 +16,8 @@ jobs:
 
       - name: Docker meta
         id: meta
-        
-        uses: docker/metadata-action@v4
+
+        uses: docker/metadata-action@v3
         with:
           images: 
             jeffkmurage/devops-docker-api-node
